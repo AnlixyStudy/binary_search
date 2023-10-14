@@ -1,8 +1,6 @@
 
 #напишите программу для бинарного поиска загаданного числа
 
-user_num = int(input('Введите целое число от 1 до 100'))
-
 def binary_search(min_num, max_num):
     # min_num = 0
     # max_num = 100
@@ -25,4 +23,4 @@ def binary_search(min_num, max_num):
             print('я не знаю это число')
         
 
-binary_search(int(input('мин. число'), int(input('макс. число'))))
+binary_search(int(input('мин. число\n')), int(input('макс. число\n')))
