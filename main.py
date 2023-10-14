@@ -17,7 +17,7 @@ def binary_search(min_num, max_num):
             max_num = center
             center = (min_num + max_num) // 2
         elif check == '=':
-            print(f'Вы загадали {check}')
+            print(f'Вы загадали {center}')
             break
         else:
             print('я не знаю это число')
